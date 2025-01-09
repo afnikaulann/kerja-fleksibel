@@ -161,11 +161,33 @@ body{margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,sans-serif;-webki
                         </div>
                         <div class="link">
                             <center class="bounce_small_infinite">
-                                <a href="javascript:void(0);" style="background:#2fa52d;border:none;" onclick="dj()">
-                                    <div class="wapp flex justify-center"><img src="img/wapp.jpg"></div>
-                                    <div class="w-full">Lamar Sekarang</div>
+                                <a href="javascript:void(0);" style="background:rgb(152, 62, 62); border:none;">
+                                    <div class="w-full moving-text">Klik Untuk Daftar</div>
                                 </a>
                             </center>
+                        </div>
+                        
+                        <style>
+                            /* Animasi bergerak */
+                            @keyframes moveText {
+                                0% {
+                                    transform: translateX(0);
+                                }
+                                50% {
+                                    transform: translateX(10px);
+                                }
+                                100% {
+                                    transform: translateX(0);
+                                }
+                            }
+                        
+                            /* Penerapan animasi pada teks */
+                            .moving-text {
+                                display: inline-block;
+                                animation: moveText 2s ease-in-out infinite;
+                            }
+                        </style>
+                        
                         </div>
                         <img class="w-full object-cover" src="img/2.jpg">
                         <div>
@@ -187,9 +209,8 @@ body{margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,sans-serif;-webki
                         </div>
                         <div class="link">
                             <center class="bounce_small_infinite">
-                                <a href="javascript:void(0);" style="background:#2fa52d;border:none;" onclick="dj()">
-                                    <div class="wapp flex justify-center"><img src="img/wapp.jpg"></div>
-                                    <div class="w-full">Daftar sekarang</div>
+                                <a href="javascript:void(0);" style="background:#6c6c6c;border:none;" onclick="dj()">
+                                    <div class="w-full">Klik Untuk Daftar</div>
                                 </a>
                             </center>
                         </div>
@@ -208,11 +229,8 @@ body{margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,sans-serif;-webki
                         </div>
                         <div class="link">
                             <center class="bounce_small_infinite">
-                                <a href="javascript:void(0);" style="background:#2fa52d;border:none;" onclick="dj()">
-                                    <div class="wapp flex justify-center">
-                                        <img src="img/wapp.jpg">
-                                    </div>
-                                    <div class="w-full">Bergabunglah sekarang</div>
+                                <a href="javascript:void(0);" style="background:#394abd;border:none;" onclick="dj()">
+                                    <div class="w-full">Klik Untuk Daftar</div>
                                 </a>
                             </center>
                         </div>
@@ -528,9 +546,17 @@ body{margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,sans-serif;-webki
         text-transform: uppercase;
         letter-spacing: 1px;
         font-size: 18px;">
-        <button style="width: 300px;background-color:#03b877;border:#03b877;border-radius:50px;height: 50px;margin-top:5px;border: #03b877;color: #ffffff;font-size: 25px;">
-            <a class="jump" onclick="dj()" target="_blank">
-                <strong style="color: white;">Hubungi kami</strong>
+        <button style="width: 300px; background-color:#b3b3b3; border:#03b877; border-radius:45px; height: 50px; margin-top:5px; border: #03b877; color: #ffffff; font-size: 20x;">
+            <center class="bounce_small_infinite">
+            <a href="https://t.me/username_anda" style="text-decoration: none; color: white;" target="_blank">
+                <strong style="color: white;">
+                    <img src="img/tele1.png" alt="Logo Telepon" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;">
+                   Chat Admin Melalui Telegram
+                </strong>
+            </a>
+        </button>
+        
+        
             </a>
         </button>
     </div>
